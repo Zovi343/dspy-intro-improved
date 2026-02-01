@@ -14,7 +14,10 @@ Make sure you have [Docker](https://www.docker.com/products/docker-desktop/) ins
 
 
 ## Dive Into DSPy
-The notebook [dspy_demo.ipynb](notebooks/dspy_demo.ipynb) contains the full tutorial. It is structured in a way that allows you to follow the tutorial one cell at the time.
+The notebook [dspy_demo.ipynb](notebooks/dspy_demo.ipynb) contains the full tutorial. It is structured in a way that allows you to explore the DSPy framework one cell at the time.
+In the notebook we are optimizing [compound AI system](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) that classifies articles and extracts information about mergers and acquisitions of gold mining companies.
+
+![Program Flow Diagram](./programs/program_flow.png)
 
 ## Optimizers Performance Comparison
 The notebook uses BootstrapFewShotWithRandomSearch and GEPA optimizers to tune the DSPy program for articles extraction.
